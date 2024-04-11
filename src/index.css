@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+article{
+  background-color: #003C43;
+  color: white;
+  border: 3px solid transparent;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 3px solid gray;
+}
+
+.section-content{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 2px solid gray;
+  width: 100%;
+}
+
+td, tr, th{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #dddddd;
+}
+
+.form-container{
+  text-align: center;
+}
+
+.form-container h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #003C43;
+}
+
+.add-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(224, 222, 222);
+  width: 300px;
+  height: 25px;
+  text-align: center;
+}
+
+.add-btn{
+  margin-top: 20px;
+}
+.add-btn button{
+  background-color: #003C43;
+  color: #fff;
+  padding: 6px;
+  border: none;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.add-employee-btn{
+  float: right;
+  margin-bottom: 10px;
+  background-color: #003C43;
+  color: #fff;
+  border: none;
+  width: 120px;
+}
+
+.actions-btn input{
+  width: auto;
+  background-color: #003C43;
+  color: #fff;
+  padding: 5px;
+  margin-left: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.list-heading, .modal-heading{
+  text-align: center;
+  color: #135D66;
+}
+
+.modal-rows{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.modal-rows span{
+  color: gray;
+}
+
+/* modal */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid #888;
+  width: 60%;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 30px;
+}
+
+.close:hover{
+  color: crimson;
+  cursor: pointer;
+}
+
+/* edit employee */
